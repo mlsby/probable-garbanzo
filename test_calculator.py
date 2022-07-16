@@ -1,4 +1,4 @@
-from calculator import add, power, factorial
+from calculator import add, power, factorial, subtract
 
 
 def test_add():
@@ -10,3 +10,5 @@ def test_power():
 def test_factorial():
     assert 6 == factorial(3)
 
+def test_subtract():
+    assert 1 == subtract(3, 2)

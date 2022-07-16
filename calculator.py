@@ -10,3 +10,5 @@ def factorial(x):
         f *= i
     return f
 
+def subtract(x, y):
+    return x-y
